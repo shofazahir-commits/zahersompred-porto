@@ -149,7 +149,7 @@ function closeBhsPopup() {
 const bgMusic = document.getElementById("bgMusic");
 const btn = document.getElementById("musicToggle");
 
-bgMusic.volume = 0.3;
+bgMusic.volume = 0.2;
 bgMusic.muted = true;
 let hasStarted = false;
 
@@ -182,3 +182,4 @@ btn.addEventListener("click", (e) => {
         btn.classList.remove("active");
     }
 });
+
